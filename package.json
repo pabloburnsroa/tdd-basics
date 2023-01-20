@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose --coverage",
+    "e2e": "cypress open"
   },
   "devDependencies": {
+    "cypress": "^12.3.0",
     "vite": "^4.0.0"
   },
   "dependencies": {
